@@ -7,3 +7,8 @@
 @Version:   3.7.3
 @Desc:      None
 """
+from interact import Client
+
+if __name__ == '__main__':
+    rpc_client = Client()
+    rpc_client.run()
