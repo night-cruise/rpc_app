@@ -7,3 +7,8 @@
 @Version:   3.7.3
 @Desc:      None
 """
+from rpc_server import RpcServer
+
+if __name__ == '__main__':
+    rpc_server = RpcServer()
+    rpc_server.channel.start_consuming()
