@@ -7,3 +7,13 @@
 @Version:   3.7.3
 @Desc:      None
 """
+
+SERVER_HOST = "localhost"
+
+RABBITMQ_HOST = 'localhost'
+RABBITMQ_PORT = 5672
+
+RABBITMQ_USERNAME = "zhihao"
+RABBITMQ_PASSWORD = "187847"
+
+EXCHANGE_NAME = "rpc"
