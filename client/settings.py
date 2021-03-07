@@ -11,7 +11,7 @@
 RABBITMQ_HOST = 'localhost'
 RABBITMQ_PORT = 5672
 
-RABBITMQ_USERNAME = "zhihao"
-RABBITMQ_PASSWORD = "187847"
+RABBITMQ_USERNAME = "rabbitmq username"
+RABBITMQ_PASSWORD = "rabbitmq password"
 
 EXCHANGE_NAME = "rpc"
